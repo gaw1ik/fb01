@@ -2,13 +2,16 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/fireba
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 import { getStorage, ref, uploadBytes } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-storage.js";
 
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyAVEFVFlN_jIFCwX6LR5YEn6nnLFbdmFeU",
+  authDomain: "fb01-39079.firebaseapp.com",
+  projectId: "fb01-39079",
+  storageBucket: "fb01-39079.firebasestorage.app",
+  messagingSenderId: "103377504373",
+  appId: "1:103377504373:web:cec4a2e773ed25243f103c",
+  measurementId: "G-VPDQ7WM82X"
 };
 
 const app = initializeApp(firebaseConfig);
